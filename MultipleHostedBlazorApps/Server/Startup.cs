@@ -41,6 +41,8 @@ namespace MultipleHostedBlazorApps.Server
 
             app.UseBlazorFrameworkFiles();
             app.UseStaticFiles();
+            app.MapBlazorApp("app1");
+            app.MapBlazorApp("app2");
 
             app.UseRouting();
 

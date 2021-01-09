@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
@@ -9,6 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Client2\MultipleHostedBlazorApps.Client2.csproj" />
     <ProjectReference Include="..\Client\MultipleHostedBlazorApps.Client.csproj" />
     <ProjectReference Include="..\Shared\MultipleHostedBlazorApps.Shared.csproj" />
   </ItemGroup>
